@@ -1,0 +1,215 @@
+/*
+Krista Froiseth
+COP4813.0M1
+Project 1 - Reservation System - Styling for project */
+
+
+@CHARSET "ISO-8859-1";
+
+body { 
+	color: #454545;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+	  
+#wrapper {
+	width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+	/* width:98%;
+	padding:20px; */	 
+}
+
+h2 {
+	color: #592941;
+}
+.main_title {
+	text-align: center;
+    padding: 4px;
+	margin: 10px;
+}
+
+/*Header*/
+.tel {
+	text-decoration:none;      
+    color:#660033;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.tel_row {
+	padding-top:25px;
+	clear:left
+	}
+
+/*Navigation */
+nav {
+	padding-top:0px;
+	padding-bottom:5px;
+    text-align:center;
+}
+    
+nav a{
+	text-decoration: none;      
+    margin:40px;
+	font-size: 17px;
+	text-align:center;
+}
+	  
+nav a:link {color: #660033;}
+nav a:hover {color: #660033;}
+nav a:hover {color: #660033;}
+nav a:visited {color: #000000;}
+
+.topnav a {
+	text-decoration: none;      
+    margin:40px;
+	font-size: 20px;
+	text-align:center;
+}
+
+/*Images*/
+#banner { 
+	position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*Tables*/	
+table {
+	border: 1px solid #D1D1D1;
+    width:650px;
+	border-spacing:0;
+	margin:auto;
+}
+
+th{ 
+	width:250px; 
+	height:30px; 
+	border:1px solid #D1D1D1;
+}
+
+td {
+	height:25px;
+	border:1px solid #D1D1D1;
+	text-align:left;
+	padding-left:20px;
+}
+
+/*Buttons*/
+
+.button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    padding: 9px 12px;
+    border: 1px solid #470929;
+    border-radius: 8px;
+	margin-top: 0px;
+    background: #94446c;
+    background: -webkit-gradient(linear, left top, left bottom, from(#94446c), to(#661a47));
+    background: -moz-linear-gradient(top, #94446c, #661a47);
+    background: linear-gradient(to bottom, #94446c, #661a47);
+    font: normal normal bold 18px tahoma;
+    color: #ffffff;
+    text-decoration: none;
+	margin:10px;
+}
+
+.button:hover,
+.button:focus {
+    border: 1px solid #b21767;
+    background: #b25282;
+    background: -webkit-gradient(linear, left top, left bottom, from(#b25282), to(#7a1f55));
+    background: -moz-linear-gradient(top, #b25282, #7a1f55);
+    background: linear-gradient(to bottom, #b25282, #7a1f55);
+    color: #ffffff;
+    text-decoration: none;
+}
+.button:active {
+    background: #592941;
+    background: -webkit-gradient(linear, left top, left bottom, from(#592941), to(#661a47));
+    background: -moz-linear-gradient(top, #592941, #661a47);
+    background: linear-gradient(to bottom, #592941, #661a47);
+}
+
+
+/*Form & Input*/
+form{
+	width:auto; 
+	margin-bottom:100px;
+}
+
+label { 
+	float: left;
+    display: block;
+	text-align: right;
+	width: 10em;
+	padding-right: 10px;
+}
+
+fieldset {
+	width: 45%;
+    height:auto;
+	border-color: #D1D1D1;
+	padding: 20px;
+}
+
+legend{
+	display:block; 
+    font-size: 20px; 
+    color:#660033;
+}
+
+input, textarea {
+	margin-bottom: 1em; 
+}
+
+#myName, #myPhone, #myEmail,
+#myAddress, #myAddress2, #myCity, 
+#myFName, #myLName, #myPhone {
+								display:block; 
+								width: 250px;
+								height: 20px;
+							}
+#myPost {
+	display:block; 
+	width: 50px;
+	height: 20px;
+}
+
+#adults{ margin-left:30px;}
+#children {margin-left:15px;}
+#checkin_date,#checkin_month, #checkin_year,
+#checkout_date,#checkout_month, #checkout_year {margin-bottom: 10px;}
+	
+header, nav, main, footer { display:block;}
+
+
+@media only screen and (max-width: 768px) {
+  .tel_row{display:none;}
+  #wrapper { width: auto; } 
+  h2, h3 {font-size: 1.2em;}
+  p { font-size: 90%;}
+  nav, nav a{ width:auto; display:block; padding: 0.1em; margin:0;}
+      
+  table{width:auto;}
+  form, legend{width:auto;}
+  label{float:left; width: auto;}
+  #myName, #myPhone, #myEmail,
+  #myAddress, #myAddress2, #myCity, #myPost, #CC,
+  #myFName, #myLName, #myCountry, #myPhone{display:block; width: auto; height: auto;}
+  #myComments{width: 45%; display: block;}
+  #mySubmit1, #myReset1 {margin-top:30px;}
+  fieldset, .field{float:none; display:block; width:auto;}
+  .main_pic, .right_pic {display:none; width:75%; margin:auto; display:block; float:none; clear:both;}
+  .logo { width: auto;}
+  
+
+   
+ 
+  
+  }
+	 

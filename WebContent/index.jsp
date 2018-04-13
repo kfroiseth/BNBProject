@@ -1,0 +1,2 @@
+<c:redirect url="/home" />
+
